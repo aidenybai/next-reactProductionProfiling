@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/core": "^7.25.2",
     "@million/lint": "file:million-lint-1.0.0-rc.82-beta.67.tgz",
+    "babel": "^6.23.0",
+    "babel-plugin-syntax-hermes-parser": "^0.23.1",
     "its-fine": "^1.2.5",
     "next": "14.2.5",
     "react": "^18",

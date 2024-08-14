@@ -1,6 +1,6 @@
-import withMillionLint from '@million/lint';
+import withMillionLint from './dummy-next-plugin/plugin.js';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
 
-export default withMillionLint.next({ rsc: true })(nextConfig);
+export default withMillionLint({})(nextConfig);
